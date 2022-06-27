@@ -1,0 +1,7 @@
+You have been hired by a small/medium sized chemical manufacturing company called KP&F. Originally based out of Southern California, KP&F manufactures precursor components used by consumer goods companies. KP&F has experience rapid growth over the past 5 years. 2 years ago during the expansion of the business KP&F opened a second plant in Arizona and a third in Colorado 1 year ago. KP&F has sales reps assigned to geographic regions and typically work through a list of potential new clients curated by the marketing team. Due to the rapid growth, KP&F hsa not invested in a working CRM system. The CSO is worried that some customers are not being adequately covered by the current sales representatives. You have been asked to investigate the following:
+- identify if any customers are not within 100 miles of a given sales rep
+- are any sales reps servicing more than their fair share of customers
+- does it make sense to reallocate sales reps from one region to another
+- does anything in the data given stand out to you as an analyst
+
+data sourced from: https://github.com/EthanRBrown/rrad
