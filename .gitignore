@@ -168,3 +168,4 @@ cython_debug/
 *.prj
 *.shp
 *.shx
+/python_tutorial/01_sales_rep_customers/data/addresses-us-all.json
