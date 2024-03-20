@@ -1,6 +1,6 @@
 from random import randint
 import pandas as pd
-import matplotlib.pyplot as plt
+from tqdm import tqdm
 import numpy as np
 
 
@@ -34,7 +34,7 @@ def score_sequence(flip_sequence: list) -> dict:
 def run_simulation(num_simulations: int, num_flips: int) -> pd.DataFrame:
     all_alice_scores = []
     all_bob_scores = []
-    for i in range(num_simulations):
+    for i in tqdm(range(num_simulations)):
         sequence = create_coin_sequence(num_flips)
         scores = score_sequence(sequence)
         all_alice_scores.append(scores["alice_score"])
@@ -48,5 +48,5 @@ def run_simulation(num_simulations: int, num_flips: int) -> pd.DataFrame:
 
     return scores_df
 
-df = run_simulation(num_simulations=10_000, num_flips=100)
+df = run_simulation(num_simulations=1_000_000, num_flips=100)
 print(df["win"].value_counts())
